@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1650.0, 46.0, 211.0, 151.0 ],
+		"rect" : [ 1650.0, 46.0, 217.0, 151.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 56.0, 30.0, 139.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 56.0, 30.0, 139.0, 20.0 ],
+					"text" : "iii_once_removed_audio"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "comment",
@@ -229,6 +242,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"hidden" : 1,
@@ -890,14 +904,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 2,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
 					"order" : 3,
 					"source" : [ "obj-7", 0 ]
 				}
@@ -905,15 +911,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-2", 0 ],
+					"order" : 4,
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
@@ -921,8 +927,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 2,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"order" : 4,
+					"order" : 5,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 0,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -930,10 +952,19 @@
  ],
 		"parameters" : 		{
 			"obj-1::obj-32" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-1::obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-9::obj-36" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-1::obj-1" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-1::obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-9::obj-57" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-1::obj-37" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-9::obj-36" : 				{
+					"parameter_longname" : "live.gain~[5]"
+				}
 
 			}
 
@@ -941,36 +972,71 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "iii_once_removed_click.maxpat",
-				"bootpath" : "~/Workspace/hfmt_tdih",
+				"bootpath" : "~/Development/maccallum/pieces/iii_once_removed",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "or_cue_dict.maxpat",
-				"bootpath" : "~/Workspace/hfmt_tdih",
+				"bootpath" : "~/Development/maccallum/pieces/iii_once_removed",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "iii_once_removed_lights.maxpat",
-				"bootpath" : "~/Workspace/hfmt_tdih",
+				"bootpath" : "~/Development/maccallum/pieces/iii_once_removed",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "iii_once_removed_monitor.maxpat",
-				"bootpath" : "~/Workspace/hfmt_tdih",
+				"bootpath" : "~/Development/maccallum/pieces/iii_once_removed",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "iii_once_removed_transport.maxpat",
-				"bootpath" : "~/Workspace/hfmt_tdih",
+				"bootpath" : "~/Development/maccallum/pieces/iii_once_removed",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "iii_once_removed_audio.maxpat",
+				"bootpath" : "~/Development/maccallum/pieces/iii_once_removed",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ecg_biquad_poly.maxpat",
+				"bootpath" : "~/Development/maccallum/pieces/iii_once_removed",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "iii_once_removed_audio_voice.maxpat",
+				"bootpath" : "~/Development/maccallum/pieces/iii_once_removed",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "x.variable.maxpat",
+				"bootpath" : "~/Development/maccallum/x/patchers",
+				"patcherrelativepath" : "../../x/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "x.generator.default.maxpat",
+				"bootpath" : "~/Development/maccallum/x/patchers",
+				"patcherrelativepath" : "../../x/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1024,6 +1090,26 @@
 			}
 , 			{
 				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "x.dist.uniform_real.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "x.global.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "x.seed_seq_from.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "x.dist.beta.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "x.dist.uniform_int.mxo",
 				"type" : "iLaX"
 			}
  ],
