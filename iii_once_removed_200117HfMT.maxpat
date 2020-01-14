@@ -64,13 +64,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.0, 274.0, 164.0, 18.0 ],
+					"patching_rect" : [ 38.0, 274.0, 164.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 123.0, 164.0, 18.0 ],
-					"text" : "unlock patch to close window"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 8.0, 119.0, 164.0, 30.0 ],
+					"text" : "take out of presentation mode to close window"
 				}
 
 			}
@@ -286,7 +288,8 @@
 								"box" : 								{
 									"data" : 									{
 										"starttime" : 630000,
-										"description" : "END"
+										"description" : "END",
+										"cue" : 14
 									}
 ,
 									"id" : "obj-2",
@@ -369,7 +372,8 @@
 									"data" : 									{
 										"or/audio/*/now/stop" : "bang",
 										"starttime" : 625000,
-										"description" : "STOP AUDIO"
+										"description" : "STOP AUDIO",
+										"cue" : 13
 									}
 ,
 									"id" : "obj-4",
@@ -405,7 +409,8 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 265000,
-										"description" : "HANDS TO KNEES"
+										"description" : "HANDS TO KNEES",
+										"cue" : 6
 									}
 ,
 									"id" : "obj-81",
@@ -563,7 +568,8 @@
 										"or/audio/*/now/start" : "bang",
 										"or/video/start" : "bang",
 										"starttime" : 0,
-										"description" : "START AUDIO, START VIDEO, CUE PERFORMERS"
+										"description" : "START AUDIO, START VIDEO, CUE PERFORMERS",
+										"cue" : 1
 									}
 ,
 									"id" : "obj-22",
@@ -587,7 +593,8 @@
 									"data" : 									{
 										"or/lights" : "fade to black",
 										"starttime" : 620000,
-										"description" : "LIGHTS FADE TO BLACK"
+										"description" : "LIGHTS FADE TO BLACK",
+										"cue" : 12
 									}
 ,
 									"id" : "obj-80",
@@ -611,7 +618,8 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 590000,
-										"description" : "FINAL MOVEMENTS WITH THE HEART"
+										"description" : "FINAL MOVEMENTS WITH THE HEART",
+										"cue" : 11
 									}
 ,
 									"id" : "obj-76",
@@ -636,7 +644,8 @@
 										"click" : "bang",
 										"metronome/stop/in" : 1090.909090999999989,
 										"starttime" : 500000,
-										"description" : "CUE FINAL ROTATION"
+										"description" : "CUE FINAL ROTATION",
+										"cue" : 10
 									}
 ,
 									"id" : "obj-74",
@@ -663,7 +672,8 @@
 										"metronome/subdivs/n" : 4,
 										"metronome/start" : "bang",
 										"starttime" : 380000,
-										"description" : "BEGIN ROTATING HEART"
+										"description" : "BEGIN ROTATING HEART",
+										"cue" : 9
 									}
 ,
 									"id" : "obj-73",
@@ -687,7 +697,8 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 340000,
-										"description" : "ROTATE, PICKUP HEART, AND RETURN TO KNEELING"
+										"description" : "ROTATE, PICKUP HEART, AND RETURN TO KNEELING",
+										"cue" : 8
 									}
 ,
 									"id" : "obj-72",
@@ -711,7 +722,8 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 295000,
-										"description" : "PLANK"
+										"description" : "PLANK",
+										"cue" : 7
 									}
 ,
 									"id" : "obj-70",
@@ -735,7 +747,8 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 205000,
-										"description" : "POSE 3"
+										"description" : "POSE 3",
+										"cue" : 5
 									}
 ,
 									"id" : "obj-69",
@@ -759,7 +772,8 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 145000,
-										"description" : "POSE 2"
+										"description" : "POSE 2",
+										"cue" : 4
 									}
 ,
 									"id" : "obj-68",
@@ -783,7 +797,8 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 85000,
-										"description" : "POSE 1"
+										"description" : "POSE 1",
+										"cue" : 3
 									}
 ,
 									"id" : "obj-67",
@@ -807,7 +822,8 @@
 									"data" : 									{
 										"or/lights" : [ "cue", 1 ],
 										"starttime" : 5000,
-										"description" : "LIGHTS FADE IN"
+										"description" : "LIGHTS FADE IN",
+										"cue" : 2
 									}
 ,
 									"id" : "obj-65",
