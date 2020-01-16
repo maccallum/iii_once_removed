@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 408.0, 45.0, 618.0, 152.0 ],
+		"rect" : [ 555.0, 45.0, 618.0, 152.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -678,14 +678,14 @@
 					"presentation_rect" : [ 354.666666999999961, 5.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ -6 ],
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[4]",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -6 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -709,14 +709,14 @@
 					"presentation_rect" : [ 310.666666999999961, 5.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ -6 ],
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_initial_enable" : 1,
-							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ -6 ],
-							"parameter_shortname" : "live.gain~"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -799,12 +799,12 @@
 					"presentation_rect" : [ 139.0, 5.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[1]",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -828,12 +828,12 @@
 					"presentation_rect" : [ 89.0, 5.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[2]",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~"
+							"parameter_mmax" : 6.0
 						}
 
 					}
@@ -1472,8 +1472,8 @@
  ],
 		"parameters" : 		{
 			"obj-32" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-1" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-37" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 

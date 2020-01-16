@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1650.0, 46.0, 217.0, 151.0 ],
+		"rect" : [ 1703.0, 46.0, 217.0, 151.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 30.0, 139.0, 20.0 ],
+					"patching_rect" : [ 56.0, 30.0, 142.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 30.0, 139.0, 20.0 ],
-					"text" : "iii_once_removed_audio"
+					"presentation_rect" : [ 56.0, 30.0, 149.0, 20.0 ],
+					"text" : "iii_once_removed_audio 4"
 				}
 
 			}
@@ -64,15 +65,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.0, 274.0, 164.0, 30.0 ],
+					"patching_rect" : [ 38.0, 274.0, 164.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 8.0, 119.0, 164.0, 30.0 ],
-					"text" : "take out of presentation mode to close window"
+					"presentation_rect" : [ 8.0, 123.0, 164.0, 18.0 ],
+					"text" : "exit pres mode to close "
 				}
 
 			}
@@ -247,13 +246,37 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-14",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 765.0, 810.0, 153.0, 30.0 ],
+									"text" : "@msg or/audio/*/now/stop bang "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 375.0, 135.0, 626.0, 30.0 ],
+									"text" : "@msg or/audio/*/env/asr/alpha 1. 1. 1. @msg or/audio/*/env/asr/concentration 5. @msg or/audio/*/env/duration/min 15000. @msg or/audio/*/env/duration/max 30000."
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"hidden" : 1,
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 938.0, 925.0, 67.0, 20.0 ],
+									"patching_rect" : [ 938.0, 940.0, 67.0, 20.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -269,7 +292,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 938.0, 883.0, 30.0, 30.0 ]
+									"patching_rect" : [ 938.0, 898.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -279,7 +302,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 795.0, 229.0, 20.0 ],
+									"patching_rect" : [ 375.0, 810.0, 229.0, 20.0 ],
 									"text" : "or_cue_dict end 10 30 @description END"
 								}
 
@@ -297,7 +320,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 795.0, 113.0, 20.0 ],
+									"patching_rect" : [ 45.0, 810.0, 113.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -315,7 +338,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 675.0, 975.0, 18.0 ],
+									"patching_rect" : [ 0.0, 690.0, 975.0, 18.0 ],
 									"text" : "final_________________________________________________________________________________________________________________________________"
 								}
 
@@ -327,7 +350,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 435.0, 975.0, 18.0 ],
+									"patching_rect" : [ 0.0, 450.0, 975.0, 18.0 ],
 									"text" : "caresses / coeur de cochon____________________________________________________________________________________________________________"
 								}
 
@@ -339,7 +362,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 150.0, 975.0, 18.0 ],
+									"patching_rect" : [ 0.0, 165.0, 975.0, 18.0 ],
 									"text" : "poses / portraits_____________________________________________________________________________________________________________________"
 								}
 
@@ -362,15 +385,14 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 750.0, 499.0, 20.0 ],
-									"text" : "or_cue_dict stop_audio 10 25 @description \"STOP AUDIO\" @msg or/audio/*/now/stop bang"
+									"patching_rect" : [ 375.0, 765.0, 324.0, 20.0 ],
+									"text" : "or_cue_dict stop_audio 10 25 @description \"STOP AUDIO\""
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"data" : 									{
-										"or/audio/*/now/stop" : "bang",
 										"starttime" : 625000,
 										"description" : "STOP AUDIO",
 										"cue" : 13
@@ -381,7 +403,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 750.0, 151.0, 20.0 ],
+									"patching_rect" : [ 45.0, 765.0, 151.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -399,7 +421,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 315.0, 390.0, 32.0 ],
+									"patching_rect" : [ 375.0, 330.0, 390.0, 32.0 ],
 									"text" : "or_cue_dict hands_to_knees 4 25 @description \"HANDS TO KNEES\" @msg click bang"
 								}
 
@@ -418,7 +440,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 315.0, 181.0, 20.0 ],
+									"patching_rect" : [ 45.0, 330.0, 181.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -432,11 +454,10 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-56",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 705.0, 450.0, 32.0 ],
+									"patching_rect" : [ 375.0, 720.0, 606.0, 20.0 ],
 									"text" : "or_cue_dict lights_fade_to_black 10 20 @description \"LIGHTS FADE TO BLACK\" @msg or/lights \"fade to black\""
 								}
 
@@ -448,8 +469,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 600.0, 570.0, 32.0 ],
-									"text" : "or_cue_dict final_movements_with_heart 9 50 @description \"FINAL MOVEMENTS WITH THE HEART\" @msg click bang"
+									"patching_rect" : [ 375.0, 615.0, 626.0, 32.0 ],
+									"text" : "or_cue_dict final_movements_with_heart 9 50 @description \"FINAL MOVEMENTS WITH THE HEART\" @msg click bang @msg or/audio/*/endfade 40000."
 								}
 
 							}
@@ -460,8 +481,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 555.0, 390.0, 32.0 ],
-									"text" : "or_cue_dict final_rotation 8 20 @description \"CUE FINAL ROTATION\" @msg click bang @msg metronome/stop/in 1090.909091"
+									"patching_rect" : [ 375.0, 570.0, 390.0, 32.0 ],
+									"text" : "or_cue_dict final_rotation 8 20 @description \"CUE FINAL ROTATION\" @msg click bang @msg metronome/stop/in 8000"
 								}
 
 							}
@@ -472,8 +493,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 510.0, 577.0, 32.0 ],
-									"text" : "or_cue_dict begin_rotating_heart 6 20 @description \"BEGIN ROTATING HEART\" @msg click bang @msg metronome/beats/bpm 7.5 @msg metronome/subdivs/n 4 @msg metronome/start bang"
+									"patching_rect" : [ 375.0, 525.0, 577.0, 32.0 ],
+									"text" : "or_cue_dict begin_rotating_heart 6 20 @description \"BEGIN ROTATING HEART\" @msg click bang @msg metronome/beats/bpm 7.5 @msg metronome/subdivs/n 4 @msg metronome/stop/now bang"
 								}
 
 							}
@@ -484,7 +505,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 465.0, 540.0, 32.0 ],
+									"patching_rect" : [ 375.0, 480.0, 540.0, 32.0 ],
 									"text" : "or_cue_dict rotate_pickup_heart_return_to_kneeling 5 40 @description \"ROTATE, PICKUP HEART, AND RETURN TO KNEELING\" @msg click bang"
 								}
 
@@ -496,7 +517,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 360.0, 255.0, 32.0 ],
+									"patching_rect" : [ 375.0, 375.0, 255.0, 32.0 ],
 									"text" : "or_cue_dict plank 4 55 @description PLANK @msg click bang"
 								}
 
@@ -508,7 +529,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 270.0, 272.0, 32.0 ],
+									"patching_rect" : [ 375.0, 285.0, 272.0, 32.0 ],
 									"text" : "or_cue_dict pose_3 3 25 @description \"POSE 3\" @msg click bang"
 								}
 
@@ -520,7 +541,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 225.0, 272.0, 32.0 ],
+									"patching_rect" : [ 375.0, 240.0, 272.0, 32.0 ],
 									"text" : "or_cue_dict pose_2 2 25 @description \"POSE 2\" @msg click bang"
 								}
 
@@ -532,7 +553,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 180.0, 272.0, 32.0 ],
+									"patching_rect" : [ 375.0, 195.0, 272.0, 32.0 ],
 									"text" : "or_cue_dict pose_1 1 25 @description \"POSE 1\" @msg click bang"
 								}
 
@@ -540,24 +561,24 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-24",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 75.0, 359.0, 32.0 ],
-									"text" : "or_cue_dict lights_fade_in 0 5 @description \"LIGHTS FADE IN\" @msg or/lights cue 1"
+									"patching_rect" : [ 375.0, 90.0, 628.0, 44.0 ],
+									"text" : "or_cue_dict lights_fade_in 0 5 @description \"LIGHTS FADE IN\" @msg or/lights cue 1 @msg or/audio/*/env/asr/alpha 1. 1. 1. @msg or/audio/*/env/asr/concentration 5. @msg or/audio/*/env/duration/min 15000. @msg or/audio/*/env/duration/max 30000."
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-23",
-									"linecount" : 2,
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 30.0, 590.0, 32.0 ],
-									"text" : "or_cue_dict start_audio_start_video_cue_performers 0 0 @description \"START AUDIO, START VIDEO, CUE PERFORMERS\" @msg click bang @msg or/audio/*/now/start bang @msg or/video/start bang"
+									"patching_rect" : [ 375.0, 30.0, 590.0, 56.0 ],
+									"text" : "or_cue_dict start_audio_start_video_cue_performers 0 0 @description \"START AUDIO, START VIDEO, CUE PERFORMERS\" @msg click bang @msg or/audio/*/now/start bang @msg or/video/start bang @msg or/audio/*/env/asr/alpha 0.833333 0. 0.166667 @msg or/audio/*/env/asr/concentration 10000. @msg or/audio/*/env/duration/* 120000."
 								}
 
 							}
@@ -567,6 +588,9 @@
 										"click" : "bang",
 										"or/audio/*/now/start" : "bang",
 										"or/video/start" : "bang",
+										"or/audio/*/env/asr/alpha" : [ 0.833333, 0.0, 0.166667 ],
+										"or/audio/*/env/asr/concentration" : 10000.0,
+										"or/audio/*/env/duration/*" : 120000.0,
 										"starttime" : 0,
 										"description" : "START AUDIO, START VIDEO, CUE PERFORMERS",
 										"cue" : 1
@@ -602,7 +626,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 705.0, 202.0, 20.0 ],
+									"patching_rect" : [ 45.0, 720.0, 202.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -617,6 +641,7 @@
 								"box" : 								{
 									"data" : 									{
 										"click" : "bang",
+										"or/audio/*/endfade" : 40000.0,
 										"starttime" : 590000,
 										"description" : "FINAL MOVEMENTS WITH THE HEART",
 										"cue" : 11
@@ -627,7 +652,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 600.0, 245.0, 20.0 ],
+									"patching_rect" : [ 45.0, 615.0, 245.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -642,7 +667,7 @@
 								"box" : 								{
 									"data" : 									{
 										"click" : "bang",
-										"metronome/stop/in" : 1090.909090999999989,
+										"metronome/stop/in" : 8000,
 										"starttime" : 500000,
 										"description" : "CUE FINAL ROTATION",
 										"cue" : 10
@@ -653,7 +678,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 555.0, 161.0, 20.0 ],
+									"patching_rect" : [ 45.0, 570.0, 161.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -670,7 +695,7 @@
 										"click" : "bang",
 										"metronome/beats/bpm" : 7.5,
 										"metronome/subdivs/n" : 4,
-										"metronome/start" : "bang",
+										"metronome/stop/now" : "bang",
 										"starttime" : 380000,
 										"description" : "BEGIN ROTATING HEART",
 										"cue" : 9
@@ -681,7 +706,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 510.0, 203.0, 20.0 ],
+									"patching_rect" : [ 45.0, 525.0, 203.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -706,7 +731,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 465.0, 305.0, 20.0 ],
+									"patching_rect" : [ 45.0, 480.0, 305.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -731,7 +756,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 360.0, 121.0, 20.0 ],
+									"patching_rect" : [ 45.0, 375.0, 121.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -756,7 +781,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 270.0, 132.0, 20.0 ],
+									"patching_rect" : [ 45.0, 285.0, 132.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -781,7 +806,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 225.0, 132.0, 20.0 ],
+									"patching_rect" : [ 45.0, 240.0, 132.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -806,7 +831,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 180.0, 132.0, 20.0 ],
+									"patching_rect" : [ 45.0, 195.0, 132.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -821,6 +846,10 @@
 								"box" : 								{
 									"data" : 									{
 										"or/lights" : [ "cue", 1 ],
+										"or/audio/*/env/asr/alpha" : [ 1.0, 1.0, 1.0 ],
+										"or/audio/*/env/asr/concentration" : 5.0,
+										"or/audio/*/env/duration/min" : 15000.0,
+										"or/audio/*/env/duration/max" : 30000.0,
 										"starttime" : 5000,
 										"description" : "LIGHTS FADE IN",
 										"cue" : 2
@@ -831,7 +860,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 45.0, 75.0, 167.0, 20.0 ],
+									"patching_rect" : [ 45.0, 90.0, 167.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0,
@@ -927,14 +956,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 4,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
@@ -952,7 +973,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"order" : 5,
+					"order" : 4,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -967,12 +988,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-32" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-9::obj-36" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-1::obj-1" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-1::obj-37" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-1::obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-9::obj-57" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-1::obj-37" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-1::obj-32" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1126,6 +1147,10 @@
 			}
 , 			{
 				"name" : "x.dist.uniform_int.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "x.dist.dirichlet.mxo",
 				"type" : "iLaX"
 			}
  ],
