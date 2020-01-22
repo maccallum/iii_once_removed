@@ -311,8 +311,7 @@
 								"box" : 								{
 									"data" : 									{
 										"starttime" : 630000,
-										"description" : "END",
-										"cue" : 14
+										"description" : "END"
 									}
 ,
 									"id" : "obj-2",
@@ -394,8 +393,7 @@
 								"box" : 								{
 									"data" : 									{
 										"starttime" : 625000,
-										"description" : "STOP AUDIO",
-										"cue" : 13
+										"description" : "STOP AUDIO"
 									}
 ,
 									"id" : "obj-4",
@@ -431,8 +429,7 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 265000,
-										"description" : "HANDS TO KNEES",
-										"cue" : 6
+										"description" : "HANDS TO KNEES"
 									}
 ,
 									"id" : "obj-81",
@@ -592,8 +589,7 @@
 										"or/audio/*/env/asr/concentration" : 10000.0,
 										"or/audio/*/env/duration/*" : 120000.0,
 										"starttime" : 0,
-										"description" : "START AUDIO, START VIDEO, CUE PERFORMERS",
-										"cue" : 1
+										"description" : "START AUDIO, START VIDEO, CUE PERFORMERS"
 									}
 ,
 									"id" : "obj-22",
@@ -617,8 +613,7 @@
 									"data" : 									{
 										"or/lights" : "fade to black",
 										"starttime" : 620000,
-										"description" : "LIGHTS FADE TO BLACK",
-										"cue" : 12
+										"description" : "LIGHTS FADE TO BLACK"
 									}
 ,
 									"id" : "obj-80",
@@ -643,8 +638,7 @@
 										"click" : "bang",
 										"or/audio/*/endfade" : 40000.0,
 										"starttime" : 590000,
-										"description" : "FINAL MOVEMENTS WITH THE HEART",
-										"cue" : 11
+										"description" : "FINAL MOVEMENTS WITH THE HEART"
 									}
 ,
 									"id" : "obj-76",
@@ -669,8 +663,7 @@
 										"click" : "bang",
 										"metronome/stop/in" : 8000,
 										"starttime" : 500000,
-										"description" : "CUE FINAL ROTATION",
-										"cue" : 10
+										"description" : "CUE FINAL ROTATION"
 									}
 ,
 									"id" : "obj-74",
@@ -697,8 +690,7 @@
 										"metronome/subdivs/n" : 4,
 										"metronome/stop/now" : "bang",
 										"starttime" : 380000,
-										"description" : "BEGIN ROTATING HEART",
-										"cue" : 9
+										"description" : "BEGIN ROTATING HEART"
 									}
 ,
 									"id" : "obj-73",
@@ -722,8 +714,7 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 340000,
-										"description" : "ROTATE, PICKUP HEART, AND RETURN TO KNEELING",
-										"cue" : 8
+										"description" : "ROTATE, PICKUP HEART, AND RETURN TO KNEELING"
 									}
 ,
 									"id" : "obj-72",
@@ -747,8 +738,7 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 295000,
-										"description" : "PLANK",
-										"cue" : 7
+										"description" : "PLANK"
 									}
 ,
 									"id" : "obj-70",
@@ -772,8 +762,7 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 205000,
-										"description" : "POSE 3",
-										"cue" : 5
+										"description" : "POSE 3"
 									}
 ,
 									"id" : "obj-69",
@@ -797,8 +786,7 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 145000,
-										"description" : "POSE 2",
-										"cue" : 4
+										"description" : "POSE 2"
 									}
 ,
 									"id" : "obj-68",
@@ -822,8 +810,7 @@
 									"data" : 									{
 										"click" : "bang",
 										"starttime" : 85000,
-										"description" : "POSE 1",
-										"cue" : 3
+										"description" : "POSE 1"
 									}
 ,
 									"id" : "obj-67",
@@ -851,8 +838,7 @@
 										"or/audio/*/env/duration/min" : 15000.0,
 										"or/audio/*/env/duration/max" : 30000.0,
 										"starttime" : 5000,
-										"description" : "LIGHTS FADE IN",
-										"cue" : 2
+										"description" : "LIGHTS FADE IN"
 									}
 ,
 									"id" : "obj-65",
@@ -988,11 +974,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-9::obj-36" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-9::obj-57" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-1::obj-1" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-9::obj-36" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-1::obj-37" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-1::obj-2" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-9::obj-57" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-1::obj-32" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
